@@ -29,7 +29,7 @@
 
 ## 📖 About the project - Name of the app <a name="about-project"></a>
 
-The Ruby on Rails (RoR) template is a basic app for starting a project using this stack. You can create a large list of different application from this starting repository. It includes a PostgreSQL database connection, the gem for user authentication, and the gem for unit testing.
+The Ruby on Rails (RoR) template is a basic app for starting a project using this great tech stack. You can create a large list of different application from this starting repository. It includes the gem to connect with a PostgreSQL database, the gem Devise for user authentication, and the gem RSpec for unit testing. It is not set up yet to include JavaScript or any CSS frameworks or precompilers.
 
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -43,7 +43,7 @@ The Ruby on Rails (RoR) template is a basic app for starting a project using thi
   </ul>
 
 ### Key Features <a name="key-features"></a>
-- **Display here the list of key features of your project.**
+- **A repo set up with Ruby on Rails, linters, and some gems like Devise for authentication and pg for connecting with a PostgreSQL database.**
 - **Display here the list of key features of your project.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -74,6 +74,7 @@ $ gem install rails
   cd my-folder
   git clone https://github.com/your_exact_repo_url.git
 ```
+- Remember that you will need to set up first the connection to the PostgreSQL database (username and password), and then ou will need to create the databases, before starting the development server.
 
 
 ### Install
@@ -83,6 +84,7 @@ This project requires the following dependencies: the Ruby interpreter, the Gem 
 ```sh
 bundle install
 ```
+- Note: The Devise gem needs to be installed, according to your needs (one option is to install the Views templates from the Devise gem and adapt the styles, and the other option is to create the Views from scratch and use them instead of the installed templates).
 
 ### Usage
 
@@ -161,8 +163,9 @@ You can visit my presentation video at,,,
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **Add a future feature here.**
-- **Add a future feature here.**
+include JavaScript or any CSS frameworks or precompilers
+- **Include the use of JavaScript and Bootstrap for CSS.**
+- **Add future features here.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
