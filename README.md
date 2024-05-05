@@ -1,8 +1,10 @@
-## Rails App  Template
+## e_nstruments Music Shop Web App - Ruby on Rails & React
 
 <a name="readme-top"></a>
 <div align="center">
-  <h3><b>Rails basic template</b></h3>
+    <img src="/logo_jcm_md.png" alt="main-logo" width="500"  height="auto" />
+  <br/>
+  <h3><b>e_nstruments Music Shop Web App - Ruby on Rails & React</b></h3>
 </div>
 📗 Table of Contents <a name="table_of-contents"></a>
 
@@ -27,9 +29,9 @@
   - [📝 License ](#-license-)
 
 
-## 📖 About the project - Name of the app <a name="about-project"></a>
+## 📖 About the project - e_nstruments Music Shop Web App <a name="about-project"></a>
 
-The Ruby on Rails (RoR) template is a basic app for starting a project using this great tech stack. You can create a large list of different application from this starting repository. It includes the gem to connect with a PostgreSQL database, the gem Devise for user authentication, and the gem RSpec for unit testing. It is not set up yet to include JavaScript or any CSS frameworks or precompilers.
+This is a Music Shop Web App called e_nstruments, developed using Ruby on Rails (RoR) as the backend and React as the frontend. The web app includes a home page to display all the products for sale, a details page with all the instrument's information, a form to sell a new instrument, a page for displaying the cart contents, and it also allows the user to delete from the cart some or all the products he wants. It uses a PostgreSQL database to perform all database operations and includes some Rails gems, like Devise for user authentication, and CanCanCan for authorizations. Finally, the project includes the RSpec gem for unit testing.
 
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -43,8 +45,8 @@ The Ruby on Rails (RoR) template is a basic app for starting a project using thi
   </ul>
 
 ### Key Features <a name="key-features"></a>
-- **A repo set up with Ruby on Rails, linters, and some gems like Devise for authentication and pg for connecting with a PostgreSQL database.**
-- **Display here the list of key features of your project.**
+- **A backend repo set up with Ruby on Rails, linters, and some gems like Devise (user authentication), CanCanCan (authorizations), and pg for connecting with a PostgreSQL database.**
+- **A frontend repo set up with Vite and React. It includes the Tailwind CSS framework.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -72,9 +74,9 @@ $ gem install rails
 
 ```sh
   cd my-folder
-  git clone https://github.com/your_exact_repo_url.git
+  git clone https://github.com/jcmunav63/e_nstruments_rails_react.git
 ```
-- Remember that you will need to set up first the connection to the PostgreSQL database (username and password), and then ou will need to create the databases, before starting the development server.
+- Remember that you will need to set up the connection to the PostgreSQL database first (username and password), and then you will have to create the databases (using rails db:create), before starting the development server.
 
 
 ### Install
@@ -84,7 +86,7 @@ This project requires the following dependencies: the Ruby interpreter, the Gem 
 ```sh
 bundle install
 ```
-- Note: The Devise gem needs to be installed, according to your needs (one option is to install the Views templates from the Devise gem and adapt the styles, and the other option is to create the Views from scratch and use them instead of the installed templates).
+- Note: The Devise gem needs to be installed, according to your needs (one option is to install the Views templates from the Devise gem and adapt their styles, and the other option is to create the Views from scratch and use them instead of the installed templates).
 
 ### Usage
 
@@ -141,11 +143,11 @@ npx stylelint "**/*.{css,scss}"
 
 ### Deployment
 
-This application is deployed on Remote_site_here. Visit the following link...
-https://newapp.remotesite.com/
+This application is deployed on Render. Visit the following link...
+pending
 
 You can visit my presentation video at,,,
-[Demo video...](https://youtu.be/url_here)
+[Demo video...](https://youtu.be/pending)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -154,18 +156,17 @@ You can visit my presentation video at,,,
 
 👤 **Developer's name here**
 
-- GitHub: [@devname_zxz](https://github.com/devname_zxz)
-- Twitter: [@devname_zxz](https://twitter.com/devname_zxz)
-- LinkedIn: [@devname_zxz](https://www.linkedin.com/in/devname_zxz/)
+- GitHub: [@jcmunav63](https://github.com/jcmunav63)
+- Twitter: [@jcmunav63](https://twitter.com/jcmunav63)
+- LinkedIn: [@juan-carlos-muñoz](https://www.linkedin.com/in/juan-carlos-mu%C3%B1oz-fullstackdev/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-include JavaScript or any CSS frameworks or precompilers
-- **Include the use of JavaScript and Bootstrap for CSS.**
-- **Add future features here.**
+- **Credit card or PayPal Payment feature.**
+- **Social media options (share, like, follow).**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -186,7 +187,7 @@ If you like this project please give me a star on Github. Thanks in advance.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to acknowledge XXXXX for the original idea of this mobile/desktop app design. You can review his/her project at: [Source](https://www.source.com/resources/)
+I would like to acknowledge Andy Leverenz for the original idea of this project. You can review his blog at: [Let's build an eCommerce Music Shop](https://webcrunch.com/posts/ruby-on-rails-ecommerce-music-shop)
 
 I would also like to thank all my colleagues, who inspire me to do my best everyday.
 
@@ -197,7 +198,7 @@ I would also like to thank all my colleagues, who inspire me to do my best every
 
 **Did you create this project from scratch?**
 
-  - Yes, it is a basic Ruby on Rails project for creating a basic web Ruby on Rails, with connection to an external PostgreSQL database, CRUD operations, data validation, user authentication, and testing.
+  - Yes, it is an eCommerce e_nstruments Music Shop web app built with Ruby on Rails project, a PostgreSQL database connection, and React components to create the frontend.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
