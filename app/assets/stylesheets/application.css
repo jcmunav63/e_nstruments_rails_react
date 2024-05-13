@@ -91,3 +91,51 @@
   box-sizing: border-box;
 }
 
+body {
+  background: linear-gradient(to left, #2e2e2e 0%, black 100%);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: white;
+}
+
+.container {
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 50px;
+  width: auto;
+  color: white;
+}
+
+.links-div {
+  display: flex;
+  justify-content: center;
+}
+
+.links-span {
+  margin-right: 15px;
+}
+
+h1 {
+  text-align: center;
+  padding: 10px 0;
+  color:crimson;
+  font-size: 2.5rem;
+}
+
+h2 {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.h2-red {
+  color:rgb(255, 64, 102);
+}
+
+a {
+  color:aquamarine;
+}
+
+.input {
+  width: 300px;
+}
